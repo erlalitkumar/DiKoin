@@ -1,10 +1,10 @@
-package com.gbizotto.dikoin
+package com.gbizotto.dikoin.feature.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.gbizotto.dikoin.R
 import com.gbizotto.dikoin.databinding.ActivityMainBinding
-import com.gbizotto.dikoin.feature.main.viewmodel.MainViewModel
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {

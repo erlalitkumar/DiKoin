@@ -37,4 +37,8 @@ dependencies {
 
     // DI
     implementation 'org.koin:koin-android-viewmodel:2.0.0-rc-2'
+
+    // Network
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.5.0'
 }
