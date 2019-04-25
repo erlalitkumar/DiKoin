@@ -9,7 +9,7 @@ class MainViewModel (private val repository: HelloRepository,
                      private val placeholderRepository: PlaceholderRepository): ViewModel() {
     val title = "Hello there!"
     val button = ObservableField<String>("Say hi!")
-    private fun sayHello() = "${repository.giveHello()} from $this"
+    private fun sayHello() = "${repository.giveHello()} from ${this.javaClass.simpleName}"
 
     fun onSayHi() {
         button.set(sayHello())
